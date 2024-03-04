@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Comment {
     public static void main(String[] args) {
         //Простой вывод на экран
@@ -9,6 +11,13 @@ public class Comment {
         int count = name.length();
         System.out.println("Выводим количество символов в " + name);
         System.out.println(count);
+
+        //Преобразование символов в нижний регистр
+        String name2 = "Ехал Грека Через Реку";
+        String name3 = name2.toLowerCase();
+        System.out.println("Преобразование в нижний регистр");
+        System.out.println("Результат преобразования: " + name3);
+
 
     }
 
