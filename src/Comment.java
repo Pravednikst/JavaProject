@@ -18,6 +18,11 @@ public class Comment {
         System.out.println("Преобразование в нижний регистр");
         System.out.println("Результат преобразования: " + name3);
 
+        //Преобразование в верхний регистр
+        String name4 = name3.toUpperCase();
+        System.out.println("Преобразование в верхний регистр");
+        System.out.println("Результат преобразования: " + name4);
+
 
     }
 
