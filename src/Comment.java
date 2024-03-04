@@ -1,4 +1,5 @@
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Comment {
     public static void main(String[] args) {
@@ -22,6 +23,8 @@ public class Comment {
         String name4 = name3.toUpperCase();
         System.out.println("Преобразование в верхний регистр");
         System.out.println("Результат преобразования: " + name4);
+
+
 
 
     }
